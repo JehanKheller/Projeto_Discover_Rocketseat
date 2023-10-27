@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./assets/icon.svg" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>Trilha Discover - Projeto (Prof. Mayk Brito)</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="profile">
+                <img src="assets/avatar_darkmode.png" alt="Imagem do Avatar">
+                <p>@jehankheller</p>
+            </div>
+
+            <!-- O atributo onclick vai procurar a função no script.js -->
+            <div id="switch-button" onclick="toggleMode()">
+                <button></button>
+                <span></span>
+            </div>
+            
+            <ul> <!-- Lista não ordenada -->
+                <li>
+                    <a href="" target=""_blank>Inscreva-se</a>
+                </li>
+                <li>
+                    <a href="" target="_blank">Download e-book grátis</a>
+                </li>
+                <li> <!-- Adicionando target="_blank", o link abre em uma nova guia. -->
+                    <a href="https://github.com/JehanKheller" target="_blank">Meu portifólio</a>
+                </li>
+                <li>
+                    <a href="https://app.rocketseat.com.br/me/jehan-kheller-03253" target="_blank">Perfil Rocktseat</a>
+                </li>
+            </ul>
+
+            <div id="social-links">
+                <a href="https://github.com/JehanKheller" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/jehankheller/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/jota.indiano.5" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.youtube.com/@motoclube199" target="_blank">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/jehankheller/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+
+            <footer>
+                Feito com ❤ pela <a href="https://www.rocketseat.com.br" target="_blank"><strong>Rocketseat</strong></a>
+            </footer>
+        </div>
+
+        <!-- Biblioteca de ícones: https://ionic.io/ionicons -->
+        <script src="./script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
