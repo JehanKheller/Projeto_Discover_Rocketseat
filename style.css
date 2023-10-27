@@ -29,16 +29,8 @@
 }
 
 body {
-    /*
-    background-image: url(./assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover; (cover: Cobrir todo o espaço visível.)
-    */
-
-    /* Simplicando com shorthand (ou atalho). Exemplo: */
-    /*  background: color image repeat position/size */
     background: var(--background-url) no-repeat top center/cover;
+    height: 100%;
 }
 
 /* Seletor universal (body). */
@@ -52,7 +44,8 @@ a {
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     margin: 24px auto 0;
     padding: 0 24px;
 }
@@ -190,4 +183,15 @@ footer a strong {
 
 footer a strong:hover {
     color: rgb(151, 71, 255);
+}
+
+/* Media queries */
+@media (min-width: 700px) {
+    :root {
+        --background-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+        --background-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
