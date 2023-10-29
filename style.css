@@ -89,15 +89,17 @@ a {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    animation: slide-back 0.3s;
 }
 
-/*#switch-button button:hover {
-
-}*/
+#switch-button button:hover {
+    /* outline é uma propriedade de contorno que não ocupa espaços nos elementos (são desenhados acima do conteúdo. */
+    /* largura | estilo | cor */
+    outline: 8px solid var(--highlight-color);
+}
 
 .light #switch-button button {
-    left: initial;
-    right: 0;
+    animation: slide-forward 0.3s forwards;
 }
 
 #switch-button span {
@@ -183,6 +185,25 @@ footer a strong {
 
 footer a strong:hover {
     color: rgb(151, 71, 255);
+}
+
+/* Animations */
+@keyframes slide-forward {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%
+    }
+}
+
+@keyframes slide-back {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
+    }
 }
 
 /* Media queries */
