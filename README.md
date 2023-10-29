@@ -34,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Dev Links é um agregador de links para usar como cartão de visitas online.
 
+🖱️ [Clique aqui](https://jehankheller.github.io/Rocketseat-Discover_Projeto-DevLinks/) para ver o resultado.
+
 ## 🎨 Layout
 
 Você pode visualizar o layout do prjeto através [desse link](https://www.figma.com/community/file/1187422022288947321/devlinks-projeto-discover). É necessário ter conta no [Figma](https://www.figma.com) para acessá-lo.
