@@ -1,7 +1,7 @@
 // let - Declara variável que permite receber valores diferentes.
 //let boasVindas = "Bom dia.";
 
-// cont - Declara variável que quando atribuído um valor, o mesmo não pode ser alterado.
+// const - Declara variável que quando atribuído um valor, o mesmo não pode ser alterado.
 //const serHumano = true;
 
 function toggleMode() {
